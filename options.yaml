@@ -1,0 +1,8 @@
+input_path: "./images"
+out_path: "./enhanced_images"
+prompt: "Ultra-photorealistic cinematic recreation of the input image. Preserve the exact composition, camera angle, framing, perspective, scale, and spatial placement of every object — no additions, removals, or repositioning. Replace any CGI/game aesthetics with real-world materials featuring physically accurate textures (micro-details, imperfections, wear, fingerprints, surface variation). Use physically based rendering with correct light transport, global illumination, realistic reflections, refractions, and contact shadows. Natural color grading, high dynamic range, true-to-life skin tones (if applicable), and accurate material response (metal, glass, fabric, skin, etc.). Shot as if captured with a high-end cinema camera: shallow depth of field where appropriate, natural lens characteristics, subtle film grain, and cinematic lighting. No stylization, no painterly effects, no artificial smoothing, no geometry changes — pure real-world realism. "
+regen_model_path: "./models/carla2kitti.pth"
+flux_model: "black-forest-labs/FLUX.2-klein-4B"
+hf_token: "<your-hf-token>"
+image_height:
+image_width:
