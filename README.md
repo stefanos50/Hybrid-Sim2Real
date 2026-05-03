@@ -2,17 +2,13 @@
 
 ## Demonstration
 
-<!-- Add your demo images below -->
-<!-- Example:
-![Demo 1](path/to/image1.png)
-![Demo 2](path/to/image2.png)
--->
+<img width="1227" height="659" alt="example_image" src="https://github.com/user-attachments/assets/1506d392-6e25-4d16-b2b8-e8232135bd8f" />
 
 ---
 
 ## Abstract
 
-<!-- Add your abstract here -->
+Video game engines have been an important source for generating large volumes of visual synthetic datasets for training and evaluating computer vision algorithms that are to be deployed in the real-world. While the visual fidelity of modern game engines has been significantly improved with technologies such as ray-tracing, a notable sim2real appearance gap between the synthetic and the real-world images still remains, which limits the utilization of synthetic datasets in real-world applications. In this letter, we investigate the ability of a state-of-the-art diffusion model (FLUX.2-4B Klein) to enhance the photorealism of synthetic datasets and compare its performance against a traditional image-to-image translation model (REGEN). Furthermore, we propose a hybrid approach that combines the strong geometry and material transformations of diffusion-based methods with the distribution-matching capabilities of image-to-image translation techniques. Through experiments, it is demonstrated that REGEN outperforms FLUX.2-4B Klein and that by combining both FLUX.2-4B Klein and REGEN models, better visual realism can be achieved compared to using each model individually, while maintaining semantic consistency.
 
 ---
 
@@ -41,12 +37,12 @@ Please refer to their official repositories for installation and requirements:
 
 ## How to Run
 
-1. Configure the parameters in the `X.yaml` configuration file:
-   - Path to the **REGEN pretrained model**
-   - Prompt of FLUX.2-4B Klein
+1. Configure the parameters in the `options.yaml` configuration file:
+   - Path to the **REGEN pretrained model** (can be found [here](https://github.com/stefanos50/REGEN))
    - Path to the **input images**
    - Path to the **output directory**
-   - Desired resolution for the photorealism-enhanced (output) images
+   - Desired resolution for the photorealism-enhanced (output) images (optimal is null)
+   - Hugging Face token for accessing FLUX.2-4B Klein
 
 2. Run the enhancer script:
 
