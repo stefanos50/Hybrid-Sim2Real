@@ -1,6 +1,6 @@
 # Project Title
 
-## 📸 Demonstration
+## Demonstration
 
 <!-- Add your demo images below -->
 <!-- Example:
@@ -10,15 +10,15 @@
 
 ---
 
-## 🧾 Abstract
+## Abstract
 
 <!-- Add your abstract here -->
 
 ---
 
-## 📖 Citation
+## Citation
 
-If you use this repository in your work, please cite it as follows:
+If you used the code of this repository in your work, we would appreciate using the following citation:
 
 ```bibtex
 % Add your BibTeX entry here
@@ -26,26 +26,27 @@ If you use this repository in your work, please cite it as follows:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
-This project relies on the following external frameworks:
+This project relies on the following models:
 
 - **FLUX.2-4B Klein**
 - **REGEN**
 
-Please refer to their official repositories for installation and setup instructions:
+Please refer to their official repositories for installation and requirements:
 
-- REGEN (GitHub repository)
-- FLUX (Hugging Face repository)
+- REGEN [(GitHub repository)](https://github.com/stefanos50/REGEN)
+- FLUX.2-4B Klein [(Hugging Face repository)](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B)
 
----
 
-## 🚀 How to Run
+## How to Run
 
-1. Configure the parameters in the `X.yaml` file:
+1. Configure the parameters in the `X.yaml` configuration file:
    - Path to the **REGEN pretrained model**
+   - Prompt of FLUX.2-4B Klein
    - Path to the **input images**
    - Path to the **output directory**
+   - Desired resolution for the photorealism-enhanced (output) images
 
 2. Run the enhancer script:
 
