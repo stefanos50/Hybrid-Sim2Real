@@ -38,9 +38,9 @@ pipe = pipe.to(device)
 for img_path in input_dir.glob("*.*"):
     output_path = output_dir / img_path.name
 
-    if output_path.exists():
-        print(f"Skipping {img_path.name}, already processed.")
-        continue
+    #if output_path.exists():
+        #print(f"Skipping {img_path.name}, already processed.")
+        #continue
 
     print(f"Processing {img_path.name}...")
 
