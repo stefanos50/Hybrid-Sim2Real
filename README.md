@@ -17,7 +17,15 @@ Video game engines have been an important source for generating large volumes of
 If you used the code of this repository in your work, we would appreciate using the following citation:
 
 ```bibtex
-% Add your BibTeX entry here
+@misc{pasios2026hybridapproachclosingsim2real,
+      title={A Hybrid Approach for Closing the Sim2real Appearance Gap in Game Engine Synthetic Datasets}, 
+      author={Stefanos Pasios},
+      year={2026},
+      eprint={2605.02291},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.02291}, 
+}
 ```
 
 ---
