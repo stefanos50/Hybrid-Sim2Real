@@ -35,20 +35,22 @@ If you used the code of this repository in your work, we would appreciate using 
 This project relies on the following models:
 
 - **FLUX.2-4B Klein**
-- **REGEN**
+- **REGEN** (Optionally HyPER-GAN)
 
 Please refer to their official repositories for installation and requirements:
 
 - REGEN [(GitHub repository)](https://github.com/stefanos50/REGEN)
+- HyPER-GAN [(GitHub repository)](https://github.com/stefanos50/HyPER-GAN)
 - FLUX.2-4B Klein [(Hugging Face repository)](https://huggingface.co/black-forest-labs/FLUX.2-klein-4B)
 
 
 ## How to Run
 
 1. Configure the parameters in the `options.yaml` configuration file:
-   - Path to the **REGEN pretrained model** (can be found [here](https://github.com/stefanos50/REGEN))
+   - Path to the **REGEN or HyPER-GAN pretrained model** (can be found [here](https://github.com/stefanos50/REGEN))
    - Path to the **input images**
    - Path to the **output directory**
+   - Image-to-Image translation model (regen or hypergan)
    - Desired resolution for the photorealism-enhanced (output) images (optimal is null)
    - Hugging Face token for accessing FLUX.2-4B Klein
 
