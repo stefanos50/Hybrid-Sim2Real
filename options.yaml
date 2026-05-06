@@ -4,5 +4,6 @@ prompt: "Ultra-photorealistic cinematic recreation of the input image. Preserve 
 regen_model_path: "./models/carla2kitti.pth"
 flux_model: "black-forest-labs/FLUX.2-klein-4B"
 hf_token: "<your-hf-token>"
+im2im_model: "regen" #hypergan or regen
 image_height:
 image_width:
