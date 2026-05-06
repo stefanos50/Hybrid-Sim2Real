@@ -47,7 +47,7 @@ Please refer to their official repositories for installation and requirements:
 ## How to Run
 
 1. Configure the parameters in the `options.yaml` configuration file:
-   - Path to the **REGEN or HyPER-GAN pretrained model** (can be found [here](https://github.com/stefanos50/REGEN))
+   - Path to the **REGEN or HyPER-GAN pretrained model** (can be found [here](https://github.com/stefanos50/REGEN) and [here](https://github.com/stefanos50/HyPER-GAN))
    - Path to the **input images**
    - Path to the **output directory**
    - Image-to-Image translation model (regen or hypergan)
