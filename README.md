@@ -2,7 +2,7 @@
 
 ## Demonstration
 
-<img width="1480" height="628" alt="example" src="https://github.com/user-attachments/assets/d185143e-9f52-4b07-9e0d-c3b319f9a03f" />
+<img width="1822" height="472" alt="example2" src="https://github.com/user-attachments/assets/416ebbc2-1866-4233-9961-c26ecc617e39" />
 
 ---
 
